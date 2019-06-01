@@ -5,7 +5,7 @@ class Xcodelinker < Formula
   desc ""
   homepage ""
   url "https://github.com/NicholasAnthony/XCodeLinker/blob/master/xcodelinker-1.0.tar.gz"
-  sha256 "260f7548c518f7ab241a4904d8cddb6f564802f619563e00d1fc33ae130e2a55"
+  sha256 "aecb25881acdbef9c547872cab0921e59d31d7730bd03648759fa76953743ae5"
   # depends_on "cmake" => :build
 
   def install
