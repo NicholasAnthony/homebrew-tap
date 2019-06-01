@@ -13,12 +13,13 @@ class Xcodelinker < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     system "ln -s /Applications/Xcode-10.1.app /Applications/XCode.app"
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
+    # system "./configure", "--disable-debug",
+    #                       "--disable-dependency-tracking",
+    #                       "--disable-silent-rules",
+    #                       "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
-    system "make", "install" # if this fails, try separate make/make install steps
+    # system "make", "install" # if this fails, try separate make/make install steps
+    bin.install "xcodelinker"
   end
 
   test do
