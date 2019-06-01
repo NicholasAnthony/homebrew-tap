@@ -2,7 +2,7 @@ class Xcodelinker < Formula
   desc "xcodeliner script."
   homepage "https://github.com/nicholasanthony/xcodelinker"
   url "https://github.com/NicholasAnthony/XCodeLinker/blob/master/xcodelinker-1.0.tar.gz"
-  sha256 "aecb25881acdbef9c547872cab0921e59d31d7730bd03648759fa76953743ae5"
+  sha256 "b07b15b7022895cd6ab65a902f64ccbd25907c716733ef6f3f1da9fd0d9c9228"
   version "1.0"
 
   def install
